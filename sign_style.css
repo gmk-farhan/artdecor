@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2b6777;
+}
+main{
+    margin: 8px auto;
+    padding: 20px;
+    width: max-content;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 5px #e1dfdf;
+}
+.info{
+    margin-bottom: 20px;
+}
+.error{
+    color: red;
+}
+.login a{
+    color: #2b6777;
+}
+.login a:hover{
+    text-decoration: none;
+    color: #52ab98
+}
+#sub{
+    width: max-content;
+    padding: 5px;
+    border-color: white;
+    border-radius: 10px;
+}
+#sub:hover{
+    color: #52ab98;
+}
+form{
+    font-size: 20px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+}

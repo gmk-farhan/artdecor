@@ -1,0 +1,115 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #2b6777;;
+        }
+        nav{
+            display: flex;
+            justify-content:space-between;
+            width: 100%;
+            position:sticky; 
+            top: 0;
+            background-color: white;
+        }
+        .logo{
+            margin-left: 50px;
+            img{
+                width: 30%;
+            }
+        }
+        a{
+            text-decoration: none;
+            padding-right: 20px;
+            color: #2b6777;
+            font-size: 20px;
+        }
+        .items, .icons{
+            place-content: center;
+        }
+        a:hover{
+            text-decoration: none;
+            color: #52ab98;
+        }
+        .login a{
+            color: black;
+        }
+        .login a:hover{
+            color: blue;
+        }
+        .dropdown {
+            position: relative; 
+            display: inline-block;
+        }
+        .content {
+            display: none;
+            position: absolute;
+        }
+        .content a {
+            text-decoration: none;
+            display: block;
+            border-radius: 10px;
+        }
+        .dropdown:hover .content{
+            display: block;
+        }
+         footer{
+            width: 100%;
+            background-color: #f2f2f2;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            /* position:sticky;
+            bottom: 0; */
+         }
+         footer li{
+            list-style-type: none;
+        }
+        p{
+            font-size: 20px;
+        }
+        .hum{
+            display: none;
+            height: 100px;
+        }
+        #btm{
+            border: none;
+            background-color: #ffffff;
+            position: sticky;
+            top: 25px;
+            right: 20px;
+            font-size: 20px;
+        }
+        #crt{
+            position: sticky;
+            top: 25px;
+        }
+        .ham{
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 50px;
+            text-align: right;
+            float: right;
+            ul{
+                list-style-type: none;
+            }
+            li{
+                margin-bottom: 10px;
+            }
+        }
+        @media screen and (max-width: 900px) {
+            .items, .icons{
+                display:none;
+            }
+            .hum{
+                display: block;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            footer{
+                display: block;
+            }
+        }
+         
+   
